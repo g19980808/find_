@@ -1,0 +1,320 @@
+#container {
+  height: 2rem;
+}
+.banner {
+  width: 100%;
+  height: 1.85rem;
+  font-size: 0.14rem;
+}
+.banner .list {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.banner .list li img {
+  width: 100%;
+}
+.banner .list .dot {
+  position: absolute;
+  bottom: 0.2rem;
+  right: 0.2rem;
+  text-align: center;
+}
+.banner .list .dot a {
+  width: 0.4rem;
+  height: 0.2rem;
+  display: block;
+  border-radius: 0.1rem;
+  background-color: #000;
+  opacity: 0.4;
+  color: #fff;
+}
+.detail {
+  width: 100%;
+  height: 1.85rem;
+  background-color: #fff;
+  font-size: 0.12rem;
+  padding: 0.2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.detail .title {
+  font-size: 0.14rem;
+  font-weight: 540;
+  padding-bottom: 0.05rem;
+}
+.detail p {
+  line-height: 0.25rem;
+}
+.detail .p1 span {
+  color: red;
+}
+.detail .p2 {
+  color: #888;
+}
+.detail .p3 span {
+  width: auto;
+  padding: 0rem 0.03rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin-right: 0.1rem;
+  background-color: #d1dfec;
+  color: #849aae;
+}
+.detail .tel {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.7rem;
+}
+.detail .tel img {
+  width: 100%;
+}
+.list-1 {
+  padding: 0 0.2rem;
+  font-size: 0.12rem;
+  background-color: #fff;
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
+.list-1 li {
+  width: 50%;
+  float: left;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.list-1 li:nth-child(11) {
+  width: 100%;
+}
+.list-1 li:nth-child(12) {
+  width: 100%;
+}
+.list-1 li:nth-child(13) {
+  width: 100%;
+}
+.list-1 li:nth-child(14) {
+  width: 100%;
+  color: #888;
+  text-align: center;
+}
+.list-2 {
+  padding: 0 0.2rem;
+  font-size: 0.12rem;
+  background-color: #fff;
+}
+.list-2 li {
+  width: 100%;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.list-2 li:nth-child(2) {
+  line-height: 0.2rem;
+}
+.list-2 li:nth-child(1) {
+  color: #ff9326;
+  font-size: 0.16rem;
+  font-weight: bold;
+}
+.list-2 li:nth-child(3) {
+  color: #888;
+  text-align: center;
+}
+.list-3 {
+  padding: 0 0.2rem;
+  font-size: 0.12rem;
+  background-color: #fff;
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
+.list-3 .title {
+  color: #ff9326;
+  font-size: 0.16rem;
+  font-weight: bold;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.list-3 li {
+  width: 100%;
+  height: 1.2rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 0.12rem;
+  justify-content: space-around;
+  background-color: #fff;
+  align-items: center;
+  border-bottom: 1px solid #ff8a00;
+}
+.list-3 li .left {
+  flex: 1;
+  margin-right: 0.2rem;
+}
+.list-3 li .left img {
+  width: 0.81rem;
+}
+.list-3 li .right {
+  flex: 6;
+}
+.list-3 li .right p {
+  line-height: 0.23rem;
+}
+.list-3 li .right .p1 {
+  width: 1.5rem;
+  font-size: 0.14rem;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-3 li .right .p2 span {
+  color: #ff8a00;
+}
+.list-3 li .right .p2 span,
+.list-3 li .right .p3 span {
+  float: right;
+}
+.list-3 li .right .p4 span {
+  width: auto;
+  padding: 0rem 0.03rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin-right: 0.1rem;
+  background-color: #d1dfec;
+  color: #849aae;
+}
+.list-4 {
+  padding: 0 0.2rem;
+  font-size: 0.12rem;
+  background-color: #fff;
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
+.list-4 .title {
+  color: #000;
+  font-size: 0.16rem;
+  font-weight: bold;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.list-4 li {
+  line-height: 0.5rem;
+  color: #888;
+  border-bottom: 1px solid #ccc;
+}
+.list-4 li a {
+  color: #000;
+}
+.list-4 li:nth-child(7) {
+  text-align: center;
+}
+.list-5 {
+  padding: 0 0.2rem;
+  font-size: 0.12rem;
+  background-color: #fff;
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+  padding-bottom: 0.1rem;
+  box-sizing: border-box;
+}
+.list-5 .title {
+  color: #000;
+  font-size: 0.16rem;
+  font-weight: bold;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.list-6 {
+  padding: 0 0.2rem;
+  font-size: 0.12rem;
+  background-color: #fff;
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
+.list-6 .title {
+  color: #000;
+  font-size: 0.16rem;
+  font-weight: bold;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.list-6 li {
+  width: 100%;
+  height: 1.8rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.25rem;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 0.12rem;
+  justify-content: space-around;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.list-6 li .left {
+  flex: 1;
+  margin-right: 0.2rem;
+}
+.list-6 li .left img {
+  width: 0.81rem;
+}
+.list-6 li .right {
+  flex: 6;
+}
+.list-6 li .right p {
+  line-height: 0.23rem;
+}
+.list-6 li .right .p1 {
+  width: 1.5rem;
+  font-size: 0.14rem;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-6 li .right .p2 span {
+  color: #ff8a00;
+}
+.list-6 li .right .p3 {
+  color: #888;
+}
+.list-6 li .right .p2 span,
+.list-6 li .right .p3 span {
+  float: right;
+}
+.list-6 li .right .p4 span {
+  width: auto;
+  padding: 0rem 0.03rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin-right: 0.1rem;
+  background-color: #d1dfec;
+  color: #849aae;
+}
+.list-6 li .bottom {
+  width: 98%;
+  height: 0.35rem;
+  background-color: #eee;
+  position: absolute;
+  bottom: 0.1rem;
+  left: 0.25rem;
+}
+.list-6 li .bottom p {
+  line-height: 0.35rem;
+  padding-left: 0.2rem;
+  position: relative;
+}
+.list-6 li .bottom .up {
+  position: absolute;
+  top: -0.03rem;
+  left: 0.3rem;
+}
+.list-6 .title {
+  color: #888;
+  font-size: 0.16rem;
+  font-weight: bold;
+  line-height: 0.5rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}

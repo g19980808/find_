@@ -1,0 +1,249 @@
+html {
+  font-size: 100px;
+}
+.banner {
+  width: 100%;
+  height: 2.25rem;
+  background: url(../img/index/banner.png) no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.banner .search {
+  width: 100%;
+  height: 0.62rem;
+  padding: 0.11rem 0.16rem;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  bottom: 0.05rem;
+  transform: translateX(-50%);
+  font-size: 0.14rem;
+}
+.banner .search a {
+  width: 100%;
+  height: 0.4rem;
+  border-radius: 0.03rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .search a input {
+  width: 80%;
+  height: 0.4rem;
+  outline: none;
+  border: none;
+  font-size: 0.14rem;
+}
+.banner .search a span {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.banner .search a span img {
+  /* width: 20px;
+                    margin-left: 20px; */
+  width: 100%;
+}
+.category {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 1.1rem;
+  background-color: #ff8a00;
+  font-size: 0.14rem;
+  color: #fff;
+}
+.category li:nth-child(1) {
+  background: url(../img/index/index_03.png) no-repeat;
+  background-size: 0.55rem;
+}
+.category li:nth-child(2) {
+  background: url(../img/index/index_05.png) no-repeat;
+  background-size: 0.55rem;
+}
+.category li:nth-child(3) {
+  background: url(../img/index/index_07.png) no-repeat;
+  background-size: 0.55rem;
+}
+.category li:nth-child(4) {
+  background: url(../img/index/index_09.png) no-repeat;
+  background-size: 0.55rem;
+}
+.category li {
+  width: 17%;
+  margin-top: 0.2rem;
+  padding-top: 0.6rem;
+  display: flex;
+  justify-content: space-around;
+}
+.banner2 {
+  width: 100%;
+  height: 2.55rem;
+  background: #fff;
+  margin: 0.1rem 0;
+}
+.banner2 img {
+  width: 100%;
+}
+.hot-house {
+  width: 100%;
+  height: 0.6rem;
+  background-color: #ff8a00;
+  font-size: 0.18rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0.2rem;
+}
+.hot-house .p2 {
+  font-size: 0.14rem;
+}
+.list {
+  width: 100%;
+}
+.list li {
+  width: 100%;
+  height: 1.33rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 0.12rem;
+  justify-content: space-around;
+  background-color: #fff;
+  align-items: center;
+  border-bottom: 1px solid #ff8a00;
+}
+.list li .left {
+  flex: 1;
+  margin-right: 0.2rem;
+}
+.list li .left img {
+  width: 0.81rem;
+}
+.list li .right {
+  flex: 6;
+}
+.list li .right p {
+  line-height: 0.23rem;
+}
+.list li .right .p1 {
+  width: 1.5rem;
+  font-size: 0.14rem;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list li .right .p2 span {
+  color: #ff8a00;
+}
+.list li .right .p3 {
+  color: #888;
+}
+.list li .right .p2 span,
+.list li .right .p3 span {
+  float: right;
+}
+.list li .right .p4 span {
+  width: auto;
+  padding: 0rem 0.03rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin-right: 0.1rem;
+  background-color: #d1dfec;
+  color: #849aae;
+}
+.hot-attention {
+  font-size: 0.12rem;
+}
+.hot-attention .top {
+  width: 100%;
+  height: 0.55rem;
+  line-height: 0.55rem;
+  border-bottom: 1px solid #ff8a00;
+}
+.hot-attention .top .left {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.hot-attention .top .left a {
+  width: 100%;
+  line-height: 0.53rem;
+  display: inline-block;
+  color: #ff8a00;
+}
+.hot-attention .top .left a:hover {
+  border-bottom: 5px solid #ff8a00;
+}
+.hot-attention .top .right {
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+.hot-attention .top .right a {
+  width: 100%;
+  line-height: 0.53rem;
+  display: inline-block;
+  color: black;
+}
+.hot-attention .top .right a:hover {
+  color: #ff8a00;
+  border-bottom: 5px solid #ff8a00;
+}
+.hot-attention .list2 {
+  padding: 0.1rem 0.2rem;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.hot-attention .list2 li {
+  width: 50%;
+  padding: 0 0.15rem;
+  box-sizing: border-box;
+  float: left;
+  line-height: 0.25rem;
+}
+.hot-attention .list2 li a {
+  color: #666;
+}
+.hot-attention .list2 li a:hover {
+  color: #ff8a00;
+}
+.position {
+  width: 100%;
+  height: 0.4rem;
+  background-color: black;
+  opacity: 0.7;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  font-size: 0.12rem;
+}
+.position p {
+  float: left;
+}
+.position .pp {
+  width: 0.1rem;
+  height: 0.15rem;
+  margin-right: 0.3rem;
+}
+.position .p2 {
+  width: 15%;
+  height: 0.3rem;
+}
+.position .p3 {
+  width: 35%;
+}
+.position .p4 {
+  width: 35%;
+  height: 100%;
+  float: right;
+  background-color: #ff8a00;
+  line-height: 0.4rem;
+  text-align: center;
+}
