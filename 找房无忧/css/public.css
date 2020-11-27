@@ -70,6 +70,9 @@ footer .bottom .left {
   justify-content: center;
   align-items: center;
 }
+footer .bottom .left img {
+  width: 0.35rem;
+}
 footer .bottom .left p {
   width: 0.5rem;
 }
@@ -78,6 +81,9 @@ footer .bottom .right {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+footer .bottom .right img {
+  width: 0.35rem;
 }
 footer .bottom .right p {
   width: 0.5rem;

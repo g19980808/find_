@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/public.css">
     <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="./js/swiper-bundle.css">
     <script src="./js/public.js"></script>
     <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=	KwiSxB4jQGgmt87UU6RMZd3wRElUe5TV">
     </script>
@@ -17,8 +18,10 @@
             <span class="left"><img class="one" src="./img/index/logo.jpg" alt=""></span>
             <span class="middle"><img class="two" src="./img/index/my.jpg" alt=""></span>
             <span class="middle"><img class="three" src="./img/index/xiazai.jpg" alt=""></span>  
+
         </header>
-        <div class="banner">
+       <!--  <div class="banner">
+
             <ul class="list">
                 <li>
                     <img src="./img/SecondHandList/img.png" alt="">
@@ -41,6 +44,29 @@
                     </a>
                 </div>
             </ul>
+        </div> -->
+        <div class="swiper-container demo">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/SecondHandList/img.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/SecondHandList/img.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/SecondHandList/img.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/SecondHandList/img.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/SecondHandList/img.png" alt="">
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination">
+    
+            </div>
         </div>
         <div class="detail">
             <p class="title">天鹅湾小区精装两居，满五唯一<br>业主换房急售</p>
@@ -195,10 +221,21 @@
             // 创建地图实例 
             var point = new BMapGL.Point(113.675250, 34.80508749032);
             // 创建点坐标 
+            // map.enableScrollwheelZoom(true);
             map.centerAndZoom(point, 15);
             // 初始化地图，设置中心点坐标和地图级别 
         </script> 
             <script src="./js/detail.js"></script>
-
+            <Script src="./js/swiper-bundle.min.js"></Script>
+<script>
+    new Swiper ('.demo',{
+    //autoplay:true,  自动播放
+     autoplay:{
+     delay:1000,          //延迟时间
+     stopOnLastSlide: false  //最后一张是否停止播放
+     } 
+   
+ })
+</script>
 </body>
 </html>
