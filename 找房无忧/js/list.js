@@ -1,9 +1,7 @@
-
-var span2=document.getElementsByClassName('span2')[0];
-span2.onclick=function(){
+var middle=document.getElementsByClassName('middle')[0];
+middle.onclick=function(){
     window.open('./my.html')
 }
-
 //切换
 $('.category>li').on('click',function(){
     $(".category>li").find('.box1').css('display','none');

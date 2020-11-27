@@ -47,13 +47,13 @@
 .detail p {
   line-height: 0.25rem;
 }
-.detail .p1 span {
+.detail .text-1 span {
   color: red;
 }
-.detail .p2 {
+.detail .text-2 {
   color: #888;
 }
-.detail .p3 span {
+.detail .text-3 span {
   width: auto;
   padding: 0rem 0.03rem;
   display: inline-block;
@@ -159,7 +159,7 @@
 .list-3 li .right p {
   line-height: 0.23rem;
 }
-.list-3 li .right .p1 {
+.list-3 li .right .text-1 {
   width: 1.5rem;
   font-size: 0.14rem;
   font-weight: bold;
@@ -167,14 +167,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.list-3 li .right .p2 span {
-  color: #ff8a00;
-}
-.list-3 li .right .p2 span,
-.list-3 li .right .p3 span {
-  float: right;
-}
-.list-3 li .right .p4 span {
+.list-3 li .right .text-4 span {
   width: auto;
   padding: 0rem 0.03rem;
   display: inline-block;
@@ -265,7 +258,7 @@
 .list-6 li .right p {
   line-height: 0.23rem;
 }
-.list-6 li .right .p1 {
+.list-6 li .right .text-1 {
   width: 1.5rem;
   font-size: 0.14rem;
   font-weight: bold;
@@ -273,17 +266,17 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.list-6 li .right .p2 span {
+.list-6 li .right .text-2 span {
   color: #ff8a00;
 }
-.list-6 li .right .p3 {
+.list-6 li .right .text-3 {
   color: #888;
 }
-.list-6 li .right .p2 span,
-.list-6 li .right .p3 span {
+.list-6 li .right .text-2 span,
+.list-6 li .right .text-3 span {
   float: right;
 }
-.list-6 li .right .p4 span {
+.list-6 li .right .text-4 span {
   width: auto;
   padding: 0rem 0.03rem;
   display: inline-block;

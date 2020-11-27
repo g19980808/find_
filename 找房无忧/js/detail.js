@@ -1,4 +1,4 @@
-var span2=document.getElementsByClassName('span2')[0];
-span2.onclick=function(){
+var middle=document.getElementsByClassName('middle')[0];
+middle.onclick=function(){
     window.open('./my.html')
 }

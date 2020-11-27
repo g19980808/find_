@@ -27,19 +27,19 @@ header {
   display: flex;
   align-items: center;
 }
-header .span1 {
+header .left {
   flex: 5;
   margin-left: 0.2rem;
 }
-header .span1 .img1 {
+header .left .one {
   width: 1rem;
   height: 0.32rem;
 }
-header .span2 {
+header .middle {
   flex: 1;
 }
-header .span2 .img2,
-header .span2 .img3 {
+header .middle .two,
+header .middle .three {
   width: 0.25rem;
   height: 0.3rem;
 }
@@ -106,19 +106,19 @@ footer .text p {
 .position p {
   float: left;
 }
-.position .pp {
+.position .close {
   width: 0.1rem;
   height: 0.15rem;
   margin-right: 0.3rem;
 }
-.position .p2 {
+.position .download {
   width: 15%;
   height: 0.3rem;
 }
-.position .p3 {
+.position .text {
   width: 35%;
 }
-.position .p4 {
+.position .free {
   width: 35%;
   height: 100%;
   float: right;

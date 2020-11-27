@@ -189,6 +189,16 @@ html{
                             }
                         }
                     }
+                    .Mantle{
+                        width: 100%;
+                        height: 1.5rem;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        margin-top: .1rem;
+                        z-index: 9999;
+                        position: absolute;
+                        left: 0;
+                        top: 2.5rem;
+                    } 
                 }
             }
             .price{
@@ -210,6 +220,16 @@ html{
 
                         }
                     }
+                    .Mantle{
+                        width: 100%;
+                        height: 1.1rem;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        margin-top: .1rem;
+                        z-index: 9999;
+                        position: absolute;
+                        left: 0;
+                        top: 2.8rem;
+                    } 
                 }
             }
             .house{
@@ -223,12 +243,11 @@ html{
                         margin-top: .4rem;
                     .house-list{
                         width: 100%;
-                        padding: 0 .2rem;
+                        padding: 0 .2rem .1rem .2rem;
                         box-sizing: border-box;
                         
                         li{
                             border-bottom: 1px solid #ccc;
-                            margin-top: .2rem;
                             a{
                                 font-size: .12rem;
                                 color: #000;
@@ -237,12 +256,14 @@ html{
                                 float: right;
                                 width: .2rem;
                                 height: .2rem;
+                                margin-top: .1rem;
                             }
                             .img{
                                 border: 1px solid#888;
                                 width: .18rem;
                                 height: .18rem;
                                 float: right;
+                                margin-top: .1rem;
                                 border-radius: .02rem;
                                 
                             }
@@ -259,23 +280,22 @@ html{
                         }
                         
                     }
-                   
-                    .mengceng{
+                    
+                    .Mantle{
                        width: 100%;
-                       height: .5rem;
+                       height: 1.1rem;
                        background-color: rgba(0, 0, 0, 0.5);
                        margin-top: .1rem;
                        z-index: 9999;
                        position: absolute;
                        left: 0;
-                       top: -1rem;
+                       top: 2.86rem;
                    } 
                 }
             }
             .more{
                 .box{
                     width: 100%;
-                    font-size: .12rem;
                     background-color: #fff;
                     padding: 0 .2rem;
                     box-sizing: border-box;
@@ -298,13 +318,13 @@ html{
                             color: #000;
                             border: 1px solid #888;
                             margin-right: .2rem;
+                            font-size: .11rem;
                            
                         }
                         
-                        
                     }
-                    .queding{
-                        li:nth-child(5){
+                    .confirm{
+                        li:nth-child(5) {
                             width: 100%;
                             height: .4rem;
                             color: #fff;
@@ -312,16 +332,25 @@ html{
                             line-height: .4rem;
                             background-color: #ff8a00;
                             position: relative;
-                        }
+                        }              
                     }
+                    .Mantle{
+                        width: 100%;
+                        height: 1.1rem;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        margin-top: .1rem;
+                        z-index: 9999;
+                        position: absolute;
+                        left: 0;
+                        top: 2.86rem;
+                    } 
+                    
                 }
             }
         }
     .list{
         font-size: 0;
-        // height: 4.5rem;
         li{
-            // width: 100%;
             height: 1.33rem;
             margin-left:.25rem;
             margin-right:.25rem;
@@ -339,12 +368,15 @@ html{
             }
             .right{
                 flex: 6;
-                .p1{
+                p{
+                    line-height: .2rem;
+                }
+                .text-1{
                     font-size: .14rem;
                     font-weight: bold;
-                    // line-height: .3rem;
+                    line-height: .3rem;
                 }
-                .p3{
+                .text-2{
                     color: #888;
                     span{
                         color: #ff8a00;
@@ -352,41 +384,5 @@ html{
                     }
                 }
             }
-        }
-    }
-    .position{
-        width: 100%;
-        height: .4rem;
-        background-color: black;
-        opacity: .7;
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        color: #fff;
-        font-size: .12rem;
-        p{
-            float: left;
-        }
-        .pp{
-            width: .1rem;
-            height: .15rem;
-            margin-right: .3rem;
-          
-        }
-        .p2{ 
-            width: 15%;
-            height: .3rem;
-    
-        }
-        .p3{
-            width: 35%;
-        }
-        .p4{
-            width: 35%;
-            height: 100%;
-            float: right;
-            background-color: #ff8a00;
-            line-height: .4rem;
-            text-align: center;
         }
     }
